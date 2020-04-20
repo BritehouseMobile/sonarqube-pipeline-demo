@@ -4,6 +4,18 @@ TODO:
 Document
 - Intro to SonarQube
 - Creating app service plan on Azure
+- Creating a project
+- Linking a service
+    - generate token on sonarqube
+        - user
+        - my account
+        - security
+        
+    - project settings
+    - service connections
+    - new
+    - sonarqube
+    -
 - Creating a pipeline on Azure Devops 
 
 
