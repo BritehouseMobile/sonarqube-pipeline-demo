@@ -1,0 +1,15 @@
+{
+  "name": "sonarqube-pipeline-demo",
+  "version": "0.1.0",
+  "description": "A demo of running SonarQube as part of your CI/CD pipeline",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "author": "Kyle Meenehan",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^25.4.0"
+  }
+}
