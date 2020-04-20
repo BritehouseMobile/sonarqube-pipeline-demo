@@ -17,7 +17,7 @@ steps:
 
 - script: |
     npm install
-    npm run test
+    npm run test:coverage
   displayName: 'npm install and test'
 
 - task: SonarQubePrepare@4
