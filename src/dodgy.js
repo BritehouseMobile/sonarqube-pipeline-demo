@@ -8,6 +8,10 @@ function original(value) {
       return 'zero';
     }
   }
+  console.log(`
+    SonarQube needs 10 lines of duplicated code
+    for langages other than COBOL, ABAP, and Java.
+  `);
   return `console.log("you've been pwned");`;
 }
 function unOriginal(value) {
@@ -20,6 +24,10 @@ function unOriginal(value) {
       return 'zero';
     }
   }
+  console.log(`
+    SonarQube needs 10 lines of duplicated code
+    for langages other than COBOL, ABAP, and Java.
+  `);
   return `console.log("you've been pwned");`;
 }
 
