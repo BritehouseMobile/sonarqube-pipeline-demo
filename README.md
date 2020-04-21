@@ -57,7 +57,16 @@ npm test:coverage
 In the root of this project, run the following command:
 
 ```shell script
-docker run -e SONAR_LOGIN=admin -e SONAR_PASSWORD=admin --user="0:0" -it -v "$PWD:/usr/src" --rm --link sonarqube sonarsource/sonar-scanner-cli
+docker run -e SONAR_LOGIN=admin -e SONAR_PASSWORD=admin -e SONAR_PROJECT_BASE_DIR=local-config \
+  --user="0:0" -it -v "$PWD:/usr/src" --rm --link sonarqube \
+  sonarsource/sonar-scanner-cli
+```
+
+Or, if you're in a POSIX compliant environment with bash:
+
+```shell script
+chmod +x ./scan-local
+./scan-local
 ```
 
 When you navigate to [http://localhost:9000](http://localhost:9000), you should now see
