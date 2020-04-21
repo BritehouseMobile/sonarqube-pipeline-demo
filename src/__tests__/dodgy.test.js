@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 const { original, unOriginal } = require('../dodgy');
 
 test('original', () => {

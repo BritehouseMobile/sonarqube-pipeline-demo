@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 function original(value) {
   if (typeof value === 'number') {
     if (value > 0) {
