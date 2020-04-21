@@ -22,7 +22,7 @@ steps:
 
 - task: SonarQubePrepare@4
   inputs:
-    SonarQube: 'Atajo SonarQube'
+    SonarQube: 'Demo Connection'
     scannerMode: 'CLI'
     configMode: 'file'
 
