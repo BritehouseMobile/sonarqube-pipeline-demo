@@ -1,1 +1,3 @@
+#!/bin/bash
+
 docker run -e SONAR_LOGIN=admin -e SONAR_PASSWORD=admin --user="0:0" -it -v "$PWD:/usr/src" --rm --link sonarqube sonarsource/sonar-scanner-cli
